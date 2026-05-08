@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Whooray</title>
+<meta name="description" content="A calm, local-first developmental tracker for the first five years.">
+<style>
+:root {
+  --bg: #FDF8F3;
+  --surface: #FFFFFF;
+  --primary: #D4836B;
+  --primary-dark: #B8654D;
+  --text: #2C2422;
+  --text-secondary: #7A6B63;
+  --border: #E8DDD4;
+  --sage: #7BA889;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+}
+.wrap { max-width: 760px; margin: 0 auto; padding: 64px 24px 96px; }
+.hero h1 { font-size: 42px; font-weight: 800; margin: 0 0 12px; letter-spacing: -0.8px; line-height: 1.15; }
+.hero p.lead { font-size: 19px; color: var(--text-secondary); margin: 0 0 24px; }
+.badge {
+  display: inline-block;
+  padding: 6px 12px;
+  background: #FDF0EC;
+  color: var(--primary-dark);
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  margin-bottom: 16px;
+}
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 28px 32px;
+  margin: 16px 0;
+}
+h2 { font-size: 22px; font-weight: 700; margin: 32px 0 12px; }
+ul { padding-left: 22px; }
+li { margin-bottom: 8px; font-size: 16px; }
+a { color: var(--primary); text-decoration: none; font-weight: 600; }
+a:hover { text-decoration: underline; }
+.row { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px; }
+.btn {
+  display: inline-block;
+  padding: 12px 22px;
+  background: var(--primary);
+  color: #fff !important;
+  border-radius: 12px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.btn:hover { background: var(--primary-dark); text-decoration: none; }
+.btn.secondary { background: transparent; color: var(--primary) !important; border: 1px solid var(--border); }
+hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+footer { color: var(--text-secondary); font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section class="hero">
+    <span class="badge">v1.1.0 · Local-first</span>
+    <h1>Whooray</h1>
+    <p class="lead">A calm place to follow your child's first five years — 26 WHO milestones, a warm timeline, photos and notes that never leave the device.</p>
+    <div class="row">
+      <a class="btn" href="./privacy.html">Privacy Policy</a>
+      <a class="btn secondary" href="mailto:support@babymilestone.app">Support</a>
+    </div>
+  </section>
+
+  <h2>What's inside</h2>
+  <div class="card">
+    <ul>
+      <li>26 WHO Child Growth Standards milestones across 6 developmental areas</li>
+      <li>32 age-curated play activities</li>
+      <li>Memory section on every milestone — note &amp; photo</li>
+      <li>Searchable, filterable timeline of every log</li>
+      <li>Multi-child support — up to 5 children</li>
+      <li>English &amp; Українська localization</li>
+      <li>No account, no cloud, no analytics, no ads</li>
+    </ul>
+  </div>
+
+  <h2>Languages</h2>
+  <p><a href="./privacy.html">English Privacy Policy</a> · <a href="./uk/privacy.html">Політика конфіденційності (Українська)</a></p>
+
+  <hr>
+  <footer>
+    <p>&copy; 2026 Whooray. Educational reference only — not a substitute for advice from your pediatrician or healthcare provider.</p>
+  </footer>
+</div>
+</body>
+</html>

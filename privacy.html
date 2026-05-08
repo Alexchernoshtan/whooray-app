@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Whooray</title>
+<meta name="description" content="Whooray privacy policy. Local-first app, no data leaves your device.">
+<style>
+:root {
+  --bg: #FDF8F3;
+  --surface: #FFFFFF;
+  --primary: #D4836B;
+  --text: #2C2422;
+  --text-secondary: #7A6B63;
+  --border: #E8DDD4;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+}
+.wrap { max-width: 720px; margin: 0 auto; padding: 48px 24px 96px; }
+header { margin-bottom: 32px; }
+h1 { font-size: 32px; font-weight: 800; margin: 0 0 8px; letter-spacing: -0.5px; }
+.lead { color: var(--text-secondary); font-size: 16px; margin: 0; }
+h2 { font-size: 20px; font-weight: 700; margin: 32px 0 12px; }
+h3 { font-size: 16px; font-weight: 700; margin: 20px 0 8px; }
+p, ul { font-size: 15px; }
+ul { padding-left: 22px; }
+li { margin-bottom: 6px; }
+a { color: var(--primary); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 24px 28px;
+  margin: 16px 0;
+}
+.meta { color: var(--text-secondary); font-size: 13px; }
+.lang-toggle { font-size: 14px; }
+hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+footer { color: var(--text-secondary); font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="lang-toggle"><strong>English</strong> · <a href="./uk/privacy.html">Українська</a></p>
+    <h1>Privacy Policy</h1>
+    <p class="lead">Whooray — last updated May 4, 2026</p>
+  </header>
+
+  <div class="card">
+    <p><strong>Short version:</strong> Whooray is a local-first app. We do not collect, store on a server, sell, or share your data. Everything you create — your child's profile, photos, milestones, notes, daily logs — lives only on your device. There is no account, no sign-in, no cloud sync, no analytics, no advertising, and no tracking.</p>
+  </div>
+
+  <h2>1. Who we are</h2>
+  <p>Whooray is an iOS application developed and maintained by an independent developer. References to "we", "us", "our", or "the app" in this policy mean the developer of Whooray. The bundle identifier of the app is <code>com.nazaroleksii.babymilestone</code>.</p>
+
+  <h2>2. What data the app handles</h2>
+  <p>The app lets you create and store the following information <strong>locally on your device only</strong>:</p>
+  <ul>
+    <li>Your child's first name, date of birth and (optional) gender</li>
+    <li>Your child's profile photo (optional)</li>
+    <li>Milestone progress — which milestones are Not Started, In Progress or Achieved, and the date achieved</li>
+    <li>Daily log entries you create — text and optional photos</li>
+    <li>App preferences — selected child, language, notifications toggle, onboarding completion flag</li>
+  </ul>
+  <p>This information is stored in a private local database (Isar) and the iOS preferences store (SharedPreferences) inside the app's sandbox. Other apps cannot read it. We cannot read it. It is not transmitted to any server we operate.</p>
+
+  <h2>3. What data we do NOT collect</h2>
+  <p>We do not collect, receive, or store on any server:</p>
+  <ul>
+    <li>Your name, email address, phone number, or address</li>
+    <li>Your child's name, date of birth, photos, or any other content you create in the app</li>
+    <li>Your device identifier (IDFA), advertising ID, or any persistent user ID</li>
+    <li>Your location, contacts, calendar, or browsing history</li>
+    <li>Crash logs, performance metrics, or usage analytics</li>
+    <li>Anything else not listed in Section 2</li>
+  </ul>
+
+  <h2>4. Network activity</h2>
+  <p>The only outbound network request the app makes is to <strong>Google Fonts</strong> (<code>fonts.googleapis.com</code> and <code>fonts.gstatic.com</code>) to fetch the display fonts (Nunito and DM Sans) on first launch. The fonts are then cached on your device. No personal data is included in this request — it is a static asset download. See Google's policy at <a href="https://developers.google.com/fonts/faq/privacy" target="_blank" rel="noopener">developers.google.com/fonts/faq/privacy</a>.</p>
+  <p>The app does not use any other third-party SDK that performs network calls — no analytics, no crash reporting, no advertising, no attribution, no A/B testing, no remote config.</p>
+
+  <h2>5. Permissions the app requests</h2>
+  <ul>
+    <li><strong>Photo Library access</strong> — only when you tap to attach a profile photo or memory photo. Photos you select stay on the device and are referenced by the app's local database.</li>
+    <li><strong>Camera access</strong> — only when you tap to take a new profile or memory photo. The captured image is saved locally inside the app's sandbox.</li>
+  </ul>
+  <p>If you decline these permissions, the app continues to work — you simply cannot attach photos.</p>
+
+  <h2>6. Children's privacy</h2>
+  <p>Whooray is designed for parents and caregivers of children aged 0–5. The app itself is rated 4+. Because the app does not collect, store on a server, or share any data, it does not collect personal information from anyone — including children. The app is compliant with the children's privacy provisions in the Apple App Store guidelines on this basis. If you believe a child has used the app and you wish to remove any locally stored content, see Section 8 below.</p>
+
+  <h2>7. Your rights under GDPR / UK GDPR / CCPA</h2>
+  <p>Because we do not collect or process your personal data on any server, most rights granted under GDPR, UK GDPR, and the California Consumer Privacy Act (CCPA) — such as the right to access, port, correct, or restrict processing of your data — do not apply, since we hold no such data.</p>
+  <p>The right that does apply is the <strong>right to erase</strong> the data you store on your own device, which the app makes simple — see Section 8.</p>
+
+  <h2>8. How to delete your data</h2>
+  <p>You have full control of all data the app handles. To erase everything stored by the app on your device:</p>
+  <ol>
+    <li>Open Whooray.</li>
+    <li>Go to <strong>Me → Data &amp; Privacy → Delete my data</strong>.</li>
+    <li>Confirm. The local database, all photos created within the app, and all preferences are wiped immediately and irreversibly.</li>
+  </ol>
+  <p>Alternatively, deleting the app from your iOS device removes all of its data with it.</p>
+
+  <h2>9. Subscriptions and in-app purchases</h2>
+  <p>The current release of Whooray (version 1.1.0) is fully free and contains no active in-app purchases or subscriptions. If a future release introduces optional paid features, billing will be handled by Apple's App Store. We do not see your payment information.</p>
+
+  <h2>10. Data retention</h2>
+  <p>We retain no data, because we never receive any. Data on your device is retained for as long as you keep the app installed and choose not to use the in-app delete control.</p>
+
+  <h2>11. International transfers</h2>
+  <p>Because no data is transferred to any server we operate, there are no international data transfers to disclose. The Google Fonts request described in Section 4 is governed by Google's own infrastructure and privacy policy.</p>
+
+  <h2>12. Changes to this policy</h2>
+  <p>If we materially change this policy, we will update the "last updated" date at the top of the page and, for material changes, surface a notice in the app on next launch. The current version is the only version that applies to your use of the app at any given time.</p>
+
+  <h2>13. Contact</h2>
+  <p>If you have a question about this policy or how the app handles data, please email <a href="mailto:support@babymilestone.app">support@babymilestone.app</a>.</p>
+
+  <hr>
+
+  <footer>
+    <p>&copy; 2026 Whooray. Local-first by design.</p>
+    <p>Educational reference only — Whooray provides general developmental information based on the WHO Child Growth Standards (2006) and is not a substitute for advice from your pediatrician or healthcare provider.</p>
+  </footer>
+</div>
+</body>
+</html>
